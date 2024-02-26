@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
     camera.position.z = 5;
 
     const textureLoader = new THREE.TextureLoader();
-    const texture = textureLoader.load('assets/tell-me.jpg');
+    const texture = textureLoader.load('https://cdn.jsdelivr.net/gh/yanivdg/tell-me@main/src/assets/tell-me.jpg');
     const material = new THREE.MeshBasicMaterial({ map: texture });
     const geometry = new THREE.BoxGeometry();
 
